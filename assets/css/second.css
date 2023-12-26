@@ -1,0 +1,94 @@
+body
+{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	line-height: 1;
+	vertical-align: baseline;
+}
+
+.container {
+    max-width: 100%;
+    margin: 10 auto;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.container h1
+{
+    text-align: center;
+}
+.container p
+{
+    text-align: center;
+}
+.container2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.font, .font2 {
+    max-width: 40%;
+    word-wrap: break-word;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #f8f8f8;
+    margin-left: 2%;
+    padding: 20px;
+}
+
+.font2 {
+    max-width: 40%;
+    word-wrap: break-word;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #f8f8f8;
+    margin-left: 10%;
+    text-align: right;
+    padding: 20px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: 2%;
+    margin-left: 7%;
+}
+
+.image-container {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 0 40px;
+}
+
+.image-container:last-child {
+    margin-right: 0;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+.font3
+{
+    text-align: center;
+    box-shadow:2px 2px 5px rgb(0, 0, 0);
+}
+.image-container3 {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f8f8f8;
+    height: auto;
+    width: 30%; /* Adjust as needed */
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.image-container3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
